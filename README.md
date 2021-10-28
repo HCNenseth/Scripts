@@ -21,10 +21,14 @@ sed -ri '/[!-/:-@\[-`\{-~]+/!d' william.txt # remove no special chars
 sed -ri '/[0-9]+/!d' william.txt            # remove no numbers
 
 SAMBA
+
 	smbclient
+	
 		-N : no passw
 		-L : avail. services
+		
 	impacket
+	
 		Impacket is a collection of Python classes for working with network protocols. Impacket
 		is focused on providing low-level programmatic access to the packets and for some
 		protocols (e.g. SMB1-3 and MSRPC) the protocol implementation itself. Packets can be
